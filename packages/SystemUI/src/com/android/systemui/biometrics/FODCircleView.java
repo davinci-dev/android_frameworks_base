@@ -347,6 +347,7 @@ public class FODCircleView extends ImageView {
         dispatchPress();
 
         setImageDrawable(null);
+        mPressedView.setImageResource(R.drawable.fod_icon_pressed);
         invalidate();
     }
 
